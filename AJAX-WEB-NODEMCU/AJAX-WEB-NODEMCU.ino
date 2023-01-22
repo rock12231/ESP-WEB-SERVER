@@ -4,8 +4,8 @@
 #include "index.h"
 #define LED D0
 
-const char* ssid = "Avinash";
-const char* password = "Avi7071955977";
+const char* ssid = "WiFi Name";
+const char* password = "Password";
 ESP8266WebServer server(80);
 void handleRoot(){
  String s = webpage;
