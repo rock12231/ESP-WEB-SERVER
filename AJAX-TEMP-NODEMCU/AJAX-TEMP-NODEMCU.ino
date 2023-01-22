@@ -4,8 +4,8 @@
 #include "index.h"
 #define LED D0
 
-const char* ssid = "Galaxy S9";
-const char* password = "Avinashone";
+const char* ssid = "WiFi Name";
+const char* password = "Password";
 ESP8266WebServer server(80);
 void handleRoot(){
  String s = webpage;
